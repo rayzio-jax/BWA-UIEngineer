@@ -1,17 +1,15 @@
 {
-  "name": "bwa-uiengineer",
-  "version": "1.0.0",
-  "description": "This repo meant to work on the test provided by BWA for applying an Internship as UI Engineer\r By using only HTML and TailwindCSS to pass the test",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13"
-  }
+	"name": "bwa-uiengineer",
+	"version": "1.0.0",
+	"description": "This repo meant to work on the test provided by BWA for applying an Internship as UI Engineer\r By using only HTML and TailwindCSS to pass the test",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx tailwindcss -i ./src/css/input.css -o ./style.css --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.4.13"
+	}
 }
