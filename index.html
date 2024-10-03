@@ -578,6 +578,305 @@
 				</div>
 			</section>
 
+			<!-- FAQ -->
+			<section id="faq" class="my-16 md:my-24 mx-14 lg:mx-16">
+				<h1 class="font-head font-bold text-center text-2xl md:text-4xl mb-12">
+					Frequently Asked Questions
+				</h1>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-y-5 md:gap-x-5">
+					<aside
+						class="flex flex-col gap-y-5 [&>div]:py-3 [&>div]:px-4 [&>div>div>p]:text-xs [&>div>div>p]:lg:text-base"
+					>
+						<div
+							x-data="{isOpen: false}"
+							x-on:click="isOpen = !isOpen"
+							x-bind:class="isOpen ? 'max-h-max' : 'max-h-12'"
+							class="min-w-52 overflow-hidden bg-white flex flex-col gap-y-3 rounded-xl shadow-sm"
+						>
+							<div class="flex cursor-pointer">
+								<p class="my-auto flex-1 font-bold select-none">
+									Why do we need to use Kapp?
+								</p>
+								<svg
+									x-show="!isOpen"
+									class="p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+									></path>
+								</svg>
+								<svg
+									x-show="isOpen"
+									class="fill-white bg-black rounded-full p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"
+									></path>
+								</svg>
+							</div>
+							<p class="text-xs">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+								expedita esse sit non? Debitis, accusantiumum laboriosam, atque
+								voluptatum recusandae, delectus iste fugit a tenetur facilis ad
+								libero! Soluta, id.
+							</p>
+							<a
+								class="text-xs text-violet-600 hover:text-violet-700 font-semibold"
+								href=""
+								>Learn more</a
+							>
+						</div>
+						<div
+							x-data="{isOpen: false}"
+							x-on:click="isOpen = !isOpen"
+							x-bind:class="isOpen ? 'max-h-max' : 'max-h-12'"
+							class="min-w-52 overflow-hidden bg-white flex flex-col gap-y-3 rounded-xl shadow-sm"
+						>
+							<div class="flex cursor-pointer">
+								<p class="my-auto flex-1 font-bold select-none">
+									Do we need to pay 6 months per item?
+								</p>
+								<svg
+									x-show="!isOpen"
+									class="p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+									></path>
+								</svg>
+								<svg
+									x-show="isOpen"
+									class="fill-white bg-black rounded-full p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"
+									></path>
+								</svg>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+								expedita esse sit non? Debitis, accusantium illum laboriosam,
+								atque voluptatum recusandae, delectus iste fugit a tenetur
+								facilis ad libero! Soluta, id.
+							</p>
+							<a
+								class="text-xs text-violet-600 hover:text-violet-700 font-semibold"
+								href=""
+								>Learn more</a
+							>
+						</div>
+						<div
+							x-data="{isOpen: false}"
+							x-on:click="isOpen = !isOpen"
+							x-bind:class="isOpen ? 'max-h-max' : 'max-h-12'"
+							class="min-w-52 overflow-hidden bg-white flex flex-col gap-y-3 rounded-xl shadow-sm"
+						>
+							<div class="flex cursor-pointer">
+								<p class="my-auto flex-1 font-bold select-none">
+									How to migrate from other service?
+								</p>
+								<svg
+									x-show="!isOpen"
+									class="p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+									></path>
+								</svg>
+								<svg
+									x-show="isOpen"
+									class="fill-white bg-black rounded-full p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"
+									></path>
+								</svg>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+								expedita esse sit non? Debitis, accusantium illum laboriosam,
+								atque voluptatum recusandae, delectus iste fugit a tenetur
+								facilis ad libero! Soluta, id.
+							</p>
+							<a
+								class="text-xs text-violet-600 hover:text-violet-700 font-semibold"
+								href=""
+								>Learn more</a
+							>
+						</div>
+					</aside>
+					<aside
+						class="flex flex-col gap-y-5 [&>div]:py-3 [&>div]:px-4 [&>div>div>p]:text-xs [&>div>div>p]:lg:text-base"
+					>
+						<div
+							x-data="{isOpen: false}"
+							x-on:click="isOpen = !isOpen"
+							x-bind:class="isOpen ? 'max-h-max' : 'max-h-12'"
+							class="min-w-52 overflow-hidden bg-white flex flex-col gap-y-3 rounded-xl shadow-sm"
+						>
+							<div class="flex cursor-pointer">
+								<p class="my-auto flex-1 font-bold select-none">
+									What if data doesn't get stored?
+								</p>
+								<svg
+									x-show="!isOpen"
+									class="p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+									></path>
+								</svg>
+								<svg
+									x-show="isOpen"
+									class="fill-white bg-black rounded-full p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"
+									></path>
+								</svg>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+								expedita esse sit non? Debitis, accusantium illum laboriosam,
+								atque voluptatum recusandae, delectus iste fugit a tenetur
+								facilis ad libero! Soluta, id.
+							</p>
+							<a
+								class="text-xs text-violet-600 hover:text-violet-700 font-semibold"
+								href=""
+								>Learn more</a
+							>
+						</div>
+						<div
+							x-data="{isOpen: false}"
+							x-on:click="isOpen = !isOpen"
+							x-bind:class="isOpen ? 'max-h-max' : 'max-h-12'"
+							class="min-w-52 overflow-hidden bg-white flex flex-col gap-y-3 rounded-xl shadow-sm"
+						>
+							<div class="flex cursor-pointer">
+								<p class="my-auto flex-1 font-bold select-none">
+									Can we guarantee no any loss at all?
+								</p>
+								<svg
+									x-show="!isOpen"
+									class="p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+									></path>
+								</svg>
+								<svg
+									x-show="isOpen"
+									class="fill-white bg-black rounded-full p-1"
+									xmlns="http://www.w3.org/2000/svg"
+									width="26"
+									height="26"
+									fill="#000000"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"
+									></path>
+								</svg>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+								expedita esse sit non? Debitis, accusantium illum laboriosam,
+								atque voluptatum recusandae, delectus iste fugit a tenetur
+								facilis ad libero! Soluta, id.
+							</p>
+							<a
+								class="text-xs text-violet-600 hover:text-violet-700 font-semibold"
+								href=""
+								>Learn more</a
+							>
+						</div>
+						<div
+							class="min-w-52 overflow-hidden bg-black text-white flex flex-col gap-y-3 rounded-xl shadow-sm"
+						>
+							<a href="#">
+								<div class="flex cursor-pointer">
+									<svg
+										class="my-auto fill-white mr-2"
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										fill="#000000"
+										viewBox="0 0 256 256"
+									>
+										<path
+											d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"
+										></path>
+									</svg>
+									<p
+										class="my-auto flex-1 font-semibold select-none text-xs lg:text-base"
+									>
+										Send e-mail to us for other questions
+									</p>
+									<svg
+										class="p-1 rounded-full bg-white"
+										xmlns="http://www.w3.org/2000/svg"
+										width="26"
+										height="26"
+										fill="#000000"
+										viewBox="0 0 256 256"
+									>
+										<path
+											d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
+										></path>
+									</svg>
+								</div>
+							</a>
+						</div>
+					</aside>
+				</div>
+			</section>
+
 			
 	</body>
 </html>
